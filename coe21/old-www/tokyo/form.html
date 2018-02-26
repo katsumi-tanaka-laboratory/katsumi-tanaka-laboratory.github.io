@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>東京拠点利用申し込み</title>
+<meta http-equiv="content-type" content="text/html; charset=Shift_JIS">
+</head>
+
+<style>
+<!--
+th{
+    background-color:#ccf;
+}
+td{
+    background-color:#fff
+}
+table{
+    background-color:#666
+}
+-->
+</style>
+
+<script language ="JavaScript">
+<!--
+function check(){
+  for(i=0; i<document.form1.length; i++){
+    if(document.form1.elements[i].type == "text"){
+      if(document.form1.elements[i].value == ""){
+        alert("すべての欄に入力してください");
+        return false;
+      }
+    }
+  }
+}
+//-->
+</script>
+
+<body>
+<form name="form1" method="POST" action="sendmail.php" onSubmit="return check()">
+<input type="hidden" name="_email" value="rika@dl.kuis.kyoto-u.ac.jp" />
+<input type="hidden" name="_sbj" value="東京拠点利用申し込み" />
+<input type="hidden" name="_next" value="accept.html" />
+
+
+
+
+
+<h1>申し込みフォーム</h1>
+<table border="0" cellspacing="1" cellpadding="2">
+<tr><td colspan="3">
+<font color="red">すべての項目に入力してください</font></td></tr>
+<tr>
+<th>氏名</th>
+<td><input name="name" type="text" size="30">
+</td>
+<td><strong>（全角）</strong>で入力してください</td>
+</tr>
+<tr>
+<th>フリガナ</th>
+<td><input name="yomi" type="text" size="30">
+</td>
+<td><strong>（全角カタカナ）</strong>で入力してください</td>
+</tr>
+<tr>
+<th>所属</th>
+<td><input name="affiliation" type="text" size="60"></td>
+<td><strong>（全角）</strong>で入力してください</td>
+</tr>
+<tr>
+<th>連絡先</th>
+<td><input name="tel" type="text" size="30"></td>
+<td>連絡の取れる電話番号を<strong>（半角）</strong>で入力してください</td>
+</tr>
+<tr>
+<th>e-mail</th>
+<td><input name="email" type="text" size="30">
+</td>
+<td>このアドレスに返信が届きます</td>
+</tr>
+<tr>
+<th>希望日・希望時間</th>
+<td><input name="date" type="text" size="30">
+<td>（例）4月30日・14:00～15:00</td>
+</td></tr>
+<tr>
+<th>利用目的</th>
+<td><input name="purpose" type="text" size="60"></td>
+<td><strong>（全角）</strong>で入力してください</td>
+</tr>
+</table>
+<br>
+
+
+<input type="submit" value="申し込む" />
+<input type="reset" value="やめる" />
+</form>
+</body>
+</html>

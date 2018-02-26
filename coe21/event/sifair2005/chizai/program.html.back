@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<link rel="stylesheet" href="default.css">
+<title>第３回情報知財フォーラム ―コンテンツ・アーカイブと知財―</title>
+<script type="text/javascript" language="javascript">
+<!--
+var popUpWin=0;
+function popUpWindow(URLStr, left, top, width, height)
+{
+  if(popUpWin)
+  {
+    if(!popUpWin.closed) popUpWin.close();
+  }
+  popUpWin = open(URLStr, 'popUpWin', 'toolbar=no,location=no,directories=no,status=no,menub ar=no,scrollbar=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+', top='+top+',screenX='+left+',screenY='+top+'');
+}
+-->
+</script>
+</head>
+<body>
+
+<div class="head" align="center"><img src="chizai-top.gif" alt="Title" width="582" height="120"></div>
+<div align="center">
+  <table border=0 cellspacing=0 cellpadding=0 width="600px" class="navitable">
+    <tbody>
+      <tr>
+        <td width="8" height="14">&nbsp;</td>
+        <td width="140"><a href="index.html">Home</a></td>
+        <td width="8">&nbsp;</td>
+        <td width="140" class="selected">プログラム</td>
+        <td width="8">&nbsp;</td>
+        <td width="140"><a href="registration.html">参加申し込み</a></td>
+        <td width="8">&nbsp;</td>
+        <td width="140"><a href="../next/index.html">次世代フォーラム</a></td>
+        <td width="8">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="1" colspan="10" style="background-color: #cccccc;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="1"></td>
+            </tr>
+          </table></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="description" align="center">プログラム</div>
+<div class="description">
+  <table align="center" border="0" cellspacing="3">
+    <tr>
+      <td valign="top">10:00 - 10:10</td>
+      <td>開会の挨拶<br>
+        田中克己 (京都大学大学院情報学研究科教授) </td>
+    </tr>
+    <tr>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2" class="session">セッション１</td>
+    </tr>
+    <tr>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <td valign="top">10:10 - 10:40</td>
+      <td>Web情報アーカイブとその利活用<br>
+        田中克己 (京都大学大学院情報学研究科教授) </td>
+    </tr>
+    <tr>
+      <td valign="top">10:40 - 11:20 </td>
+      <td>Web情報アーカイブと知財<br>
+        植月献二 (国立国会図書館 総務部企画課電子情報企画室長) </td>
+    </tr>
+    <tr>
+      <td valign="top">11:20 - 12:00 </td>
+      <td>Webアーカイブの可能性と課題　一事業者の視点から<br>
+        岡本真 (ヤフ－株式会社 リスティング事業部検索企画室) </td>
+    </tr>
+    <tr>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2" class="session">セッション２</td>
+    </tr>
+    <tr>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <td valign="top">15:00 - 15:40 </td>
+      <td>知財推進計画2005とコンテンツ・アーカイブ (仮題) <br>
+        中川健朗 (内閣官房知的財産戦略推進事務局参事官)</td>
+    </tr>
+    <tr>
+      <td valign="top">15:40 - 17:20</td>
+      <td>パネル討論：京都大学における学術情報基盤と知財 (仮題) <br>
+        松山隆司 (京都大学情報環境機構長, 学術情報メディアセンター長, 情報学研究科教授)<br>
+        八木俊治 (京都大学国際イノベーション機構)<br>
+        谷川英和 (IRD国際特許事務所所長, 京都大学COE研究員)<br>
+        宮脇正晴 (立命館大学法学部助教授, 京都大学COE研究員) </td>
+    </tr>
+    <tr><td colspan="2">&nbsp;</td></tr>
+    <tr>
+      <td valign="top">17:20 - 17:30 </td>
+      <td>閉会の挨拶<br>
+        田中克己 (京都大学大学院情報学研究科教授) </td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

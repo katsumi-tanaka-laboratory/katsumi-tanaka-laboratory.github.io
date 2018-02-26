@@ -1,0 +1,46 @@
+/* CSS Document */
+
+table.main th{
+    background-color:#ccf;
+}
+table.main td{
+    background-color:#fff
+}
+table.main{
+    background-color:#666
+}
+p{
+    width:600px;
+}
+h4{
+    color:#33c;
+    text-decoration:underline;
+}
+span.title{
+    color:#333;
+    font-weight:bold;
+}
+dt{
+	margin-top:5px;
+}
+.abst{
+	width:600px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.program{
+	margin-top:5px;
+	margin-left:30px;
+}
+.program2{
+    margin-top:10px;
+	margin-left:10px;
+}
+.desc{
+	margin-left:100px;
+	margin-right:100px;
+}
+.head-navi{
+	margin-left:10px;
+	font-size:12px;
+}

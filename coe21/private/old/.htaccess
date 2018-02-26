@@ -1,0 +1,10 @@
+AuthUserFile /home/www/html/private/.htpasswd
+AuthName "Please enter username and password"
+AuthType Basic
+
+require valid-user
+Satisfy any
+
+order deny,allow
+deny  from all
+allow from i.kyoto-u.ac.jp dl.local

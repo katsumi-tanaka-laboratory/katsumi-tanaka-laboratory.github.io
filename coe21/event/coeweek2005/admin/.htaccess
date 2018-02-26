@@ -1,0 +1,10 @@
+AuthUserFile /var/www/coe21/event200503/admin/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Admin Members Only."
+AuthType Basic
+Options +Indexes
+require valid-user
+Satisfy any
+
+order deny,allow
+deny from all

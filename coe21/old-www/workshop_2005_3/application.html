@@ -1,0 +1,152 @@
+<HTML>
+<HEAD>
+<TITLE>申し込みフォーム</TITLE>
+</HEAD>
+<BODY>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>COE公開講座申し込みフォーム
+</title>
+</head>
+<style>
+<!--
+th{
+    background-color:#ccf;
+}
+td{
+    background-color:#fff
+}
+-->
+</style>
+
+<script language ="JavaScript">
+<!--
+function check(){
+  for(i=0; i<document.form1.length; i++){
+    if(document.form1.elements[i].type == "text"){
+      if(document.form1.elements[i].value == ""){
+        alert("すべての欄に入力してください");
+        return false;
+      }
+    }
+  }
+}
+//-->
+</script>
+
+<body>
+
+<table>
+ <tr>    <td height="20" colspan="15">　<a href="../index.html"><font color="#333333" size="-1">TOP</font></a><font size="-1">＞</font><A href="../event200503.html"><font size="-1">主催・共催ワークショップ</font></a><font size="-1">＞申し込みフォーム</font></td>   <td rowspan="2">&nbsp;</td> </tr></table>
+
+<div align="center">
+<h1>申し込みフォーム</h1>
+
+<form name="form1" action="application.php" method="post" onSubmit="return check()">
+<font color="red">すべての項目に入力してください</font><br>
+
+<table background-color="#666" border="1" cellspacing="1" cellpadding="2">
+ <tr>
+  <th>氏名</th>
+  <td><input name="name" type="text" size="30">
+  </td>
+  <td><strong>（全角）</strong>で入力してください</td>
+ </tr>
+ <tr>
+  <th>フリガナ</th>
+  <td><input name="yomi" type="text" size="30">
+  </td>
+  <td><strong>（全角カタカナ）</strong>で入力してください</td>
+ </tr>
+ <tr>
+  <th>所属</th>
+  <td><input name="affiliation" type="text" size="60"></td>
+  <td><strong>（全角）</strong>で入力してください</td>
+ </tr>
+ <tr>
+  <th>所属住所</th>
+  <td>
+  〒<input name="zip" type="text" size="10"><br>
+  <input name="address" type="text" size="60">
+  </td>
+  <td><strong>（半角）</strong>でXXX-XXXXの形で入力してください<br>
+  <strong>（全角）</strong>で入力してください</td>
+ </tr>
+  <th>職名</th>
+  <td><input name="position" type="text" size="30"></td>
+  <td><strong>（全角）</strong>で入力してください</td>
+ </tr>
+ <tr>
+  <th>電話番号</th>
+  <td><input name="tel" type="text" size="30">
+  </td>
+  <td>連絡の取れる電話番号を<strong>（半角）</strong>で入力してください</td>
+ </tr>
+ <tr>
+  <th>FAX番号</th>
+  <td><input name="fax" type="text" size="30">
+  </td>
+  <td><strong>（半角）</strong>で入力してください</td>
+ </tr>
+ <tr>
+  <th>e-mail</th>
+  <td><input name="email" type="text" size="30">
+  </td>
+  <td><strong>（半角）</strong>で入力してください</td>
+ </tr>
+</table>
+<br><br>
+
+<font color="red">申し込みをしたいイベントにチェックを入れてください<br></font><br>
+<table background-color="#666" border="1" cellspacing="1" cellpadding="2">
+ <tr height="30">
+  <th bgcolor="#00ffff" colspan="3">京都</th>
+ </tr>
+ <tr height="30">
+  <th bgcolor="#00ffff">3月7日(月)</th>
+  <td><input type="checkbox" name="w_0307" value="0307"></td>
+  <td>シンポジウム「知識社会のための情報学研究」</td>
+ </tr>
+ <tr height="30">
+  <th bgcolor="#00ffff"rowspan="4">3月8日(月)</th>
+  <td><input type="checkbox" name="w_0308_1" value="0308_1"></td>
+  <td>ワークショップ1「次世代サーチエンジンと教育利活用」 Chair:田中克己</td>
+ </tr>
+ <tr height="30">
+  <td><input type="checkbox" name="w_0308_2" value="0308_2"></td>
+  <td>ワークショップ2「21世紀の新しい学問：見えないものを観る「目」と「学び」の科学」<br> Chair:荒井修亮,高田秀志</td>
+ </tr>
+ <tr height="30">
+  <td><input type="checkbox" name="w_0308_3" value="0308_3"></td>
+  <td>ワークショップ3「会話情報学ワークショップ」 Chair:西田豊明</td>
+ </tr>
+ <tr height="30">
+  <td><input type="checkbox" name="w_0308_4" value="0308_4"></td>
+  <td>ワークショップ4「異文化コラボレーションワークショップ」 Chair:石田亨</td>
+ </tr>
+ <tr height="30">
+  <th bgcolor="#00ffff" colspan="3" height="30">東京</th>
+ </tr>   
+ <tr height="30">
+  <th bgcolor="#00ffff">3月10日(木)</th>
+  <td><input type="checkbox" name="w_0310" value="0310"></td>
+  <td>次世代メディアX：次世代のコンテンツ・プラットフォームと新サービスを探るフォーラム</td>
+ </tr>
+ <tr height="30">
+  <th bgcolor="#00ffff">3月11日(金)</th>
+  <td><input type="checkbox" name="w_0311" value="0311"></td>
+  <td>第2回COE情報知財フォーラム-コンテンツ流通と特許工学・MOT-</td>
+ </tr>
+</table>
+<br><br>
+
+<input type="submit" value="送信">
+<input type="reset" value="リセット">
+
+</form>
+</div>
+</BODY>
+</HTML>

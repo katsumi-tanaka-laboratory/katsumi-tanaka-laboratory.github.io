@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>Registration Form</title>
+</head>
+<style>
+<!--
+th{
+    background-color:#ccf;
+}
+td{
+    background-color:#fff
+}
+-->
+</style>
+<script language ="JavaScript">
+<!--
+function check(){
+  for(i=0; i<document.form1.length; i++){
+    if(document.form1.elements[i].type == "text"){
+      if(document.form1.elements[i].value == ""){
+        alert("Please fill all forms!!");
+        return false;
+      }
+    }
+  }
+}
+//-->
+</script>
+<body>
+<div class="head-navi"><a href="../index.html">Top</a> > <a href="index.html">COE
+      Week! 3/7-3/11 Kyoto, Tokyo</a> > Registration</div>
+<hr />
+<div align="center">
+  <h1>Registration Form</h1>
+  <div align="center">[ <a href="application.html">Japanese</a> / <a href="application-e.html">English</a> ]</div>
+  <form name="form1" action="application-e.php" method="post" onSubmit="return check()">
+    <!--<font color="red">Please fill all.</font>--><br>
+    <table background-color="#666" border="1" cellspacing="1" cellpadding="2">
+      <tr>
+        <th>Name</th>
+        <td><input name="name" type="text" size="30">
+            <input name="yomi" type="hidden" value="null">
+        </td>
+      </tr>
+      <tr>
+        <th>Affiliation</th>
+        <td><input name="affiliation" type="text" size="60"></td>
+      </tr>
+      <tr>
+        <th>Address</th>
+        <td> Zip Code
+          <input name="zip" type="text" size="10">
+          <br>
+          <input name="address" type="text" size="60">
+        </td>
+        
+      </tr>
+      <th>Position</th>
+        <td><input name="position" type="text" size="30"></td>
+      </tr>
+      <tr>
+        <th>Tel</th>
+        <td><input name="tel" type="text" size="30">
+        </td>
+      </tr>
+      <tr>
+        <th>E-mail</th>
+        <td><input name="email" type="text" size="30">
+        </td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <!--<font color="red">Please check the events to attend.<br>
+    </font>--><br>
+    <table background-color="#666" border="1" cellspacing="1" cellpadding="2">
+      <tr height="30">
+        <th bgcolor="#00ffff" colspan="3">In Kyoto</th>
+      </tr>
+      <tr height="30">
+        <th bgcolor="#00ffff">March 7th</th>
+        <td><input type="checkbox" name="w_0307" value="0307"></td>
+        <td>COE International Symposium on Informatics Research for Knowledge Society</td>
+      </tr>
+      <tr height="30">
+        <th bgcolor="#00ffff"rowspan="3">March 8th</th>
+        <td><input type="checkbox" name="w_0308_1" value="0308_1"></td>
+        <td>Workshop1 "Workshop on Intellectual Assets -Software Development of Cross-retrievall &amp; Integration for Heterogeneous-Media Digital Archive-"<br>
+          Coordinator: Katsumi Tanaka</td>
+      </tr>
+      <tr height="30">
+        <td><input type="checkbox" name="w_0308_2" value="0308_2"></td>
+        <td>Workshop2 "Workshop on Bio-logging Science and Cognitive Science"<br>
+          Coordinators: Nobuaki Arai, Hideyuki Takada</td>
+      </tr>
+      <tr height="30">
+        <td><input type="checkbox" name="w_0308_3" value="0308_3"></td>
+        <td>Workshop3 "Workshop on Conversational Informatics"<br>Coordinator: Toyoaki Nishida</td>
+      </tr>
+      <tr height="30">
+        <th bgcolor="#00ffff" colspan="3" height="30">In Tokyo</th>
+      </tr>
+      <tr height="30">
+        <th bgcolor="#00ffff">March 10th</th>
+        <td><input type="checkbox" name="w_0310" value="0310"></td>
+        <td> Next-Generation X Forum 
+          -Towards Future Paradigm for Content Creation, Delivery and Sharing- </td>
+      </tr>
+      <tr height="30">
+        <th bgcolor="#00ffff">March 11th</th>
+        <td><input type="checkbox" name="w_0311" value="0311"></td>
+        <td> The 2nd Forum on IP and Informatics 
+        -Content Delivery and Patent Engineering/MOT- </td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</div>
+<hr />
+</BODY>
+</HTML>

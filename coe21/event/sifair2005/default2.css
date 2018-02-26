@@ -1,0 +1,73 @@
+/* CSS Document */
+
+#content{
+	margin:auto;
+	width:600px;
+}
+
+#sec1{
+	height:385px;
+	width:300px;
+	float:left;
+}
+
+#sec1 a{
+	display:block;
+	background-image:url(top-1.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+#sec1 a:hover{
+	background-image:url(top-1.gif);
+	background-repeat:no-repeat;
+	background-position:0 -385px;
+}
+
+#sec2{
+	height:385px;
+	width:300px;
+	float:right;
+}
+#sec2 a{
+	display:block;
+	background-image:url(top-2.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+#sec2 a:hover{
+	background-image:url(top-2.gif);
+	background-repeat:no-repeat;
+	background-position:0 -385px;
+}
+#sec3{
+	clear:left;
+	width:600px;
+}
+#sec3 a{
+	display:block;
+	background-image:url(top-3.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+#sec3 a:hover{
+	background-image:url(top-3.gif);
+	background-repeat:no-repeat;
+	background-position:0 -40px;
+}
+
+#sec4{
+	margin-top:10px;
+	text-align:center;
+	font-size:12px;
+}
+#sec4 a{
+	text-decoration:none;
+	color:#0000FF;
+}
+#sec4 a:hover{
+	color:#FF0000;
+}
+#sec4 a:visited{
+	text-decoration:none;
+	color:#0000FF;
+}

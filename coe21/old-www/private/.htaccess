@@ -1,0 +1,4 @@
+order deny,allow
+deny from all
+allow from 130.54.
+allow from 192.168.

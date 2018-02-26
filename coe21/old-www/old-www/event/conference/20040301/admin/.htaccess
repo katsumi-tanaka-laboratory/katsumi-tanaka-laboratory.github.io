@@ -1,0 +1,6 @@
+AuthUserFile /home/www/html/conference/20040301/admin/.htpasswd
+AuthName "Please enter username and password"
+AuthType Basic
+
+
+require valid-user
